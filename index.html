@@ -1,58 +1,63 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background-color: #000; /* Fundo preto */
-  color: #ff0000; /* Letras vermelhas */
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-header {
-  background: #111;
-  color: #ff0000;
-  padding: 20px;
-  text-align: center;
-}
+  <header>
+    <h1>Seu Nome</h1>
+    <p>Desenvolvedor(a) Web | Designer | Outro</p>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-nav a {
-  color: #ff0000;
-  margin: 0 15px;
-  text-decoration: none;
-  transition: color 0.3s;
-}
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Escreva aqui um resumo sobre você, sua trajetória, suas paixões e objetivos.</p>
+  </section>
 
-nav a:hover {
-  color: #ffffff; /* Branco ao passar o mouse */
-}
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <div class="projeto">
+      <h3>Nome do Projeto 1</h3>
+      <p>Descrição do projeto. Tecnologias usadas, propósito, etc.</p>
+      <a href="https://link-do-projeto.com" target="_blank">Ver projeto</a>
+    </div>
+    <!-- Adicione mais projetos aqui -->
+  </section>
 
-section {
-  padding: 40px 20px;
-  max-width: 800px;
-  margin: auto;
-  background: #111;
-  border-radius: 8px;
-  margin-top: 20px;
-}
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git & GitHub</li>
+      <!-- Adicione outras habilidades -->
+    </ul>
+  </section>
 
-.projeto {
-  background: #222;
-  padding: 15px;
-  border-radius: 5px;
-  margin-bottom: 15px;
-}
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Você pode me encontrar em:</p>
+    <ul>
+      <li>Email: seuemail@email.com</li>
+      <li>LinkedIn: <a href="https://linkedin.com/in/seuperfil" target="_blank">linkedin.com/in/seuperfil</a></li>
+      <li>GitHub: <a href="https://github.com/seuperfil" target="_blank">github.com/seuperfil</a></li>
+    </ul>
+  </section>
 
-a {
-  color: #ff0000;
-}
+  <footer>
+    <p>© 2025 - Seu Nome</p>
+  </footer>
 
-a:hover {
-  color: #ffffff;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #111;
-  color: #ff0000;
-  margin-top: 40px;
-}
+</body>
+</html>
